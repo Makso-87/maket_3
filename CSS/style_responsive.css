@@ -1,0 +1,854 @@
+/*Правила для экранов шириной меньше 970 пикселей*/
+@media screen and (max-width: 970px) {
+	
+	.container {
+		width: 100%;
+	}
+	.content_right {
+		position: relative;
+		left: -45px;
+		height: 680px;
+	}
+
+	.book_left {
+		left: -55px;
+	}
+
+	.book_right {
+		left: -25px;
+		width: 130%;
+	}
+
+	header .col-xs-12.col-sm-5.logo img {
+		width: 95%;
+		margin-left: 25px;
+	}
+
+	.header_par_right {
+	margin-left: 20px;
+	}
+
+	.col-xs-6.test {
+	padding-right: 15px;
+	}
+
+	.bookmark {
+		left: -518px;
+	}
+}
+
+/*Правила для экранов шириной меньше 915 пикселей*/
+
+@media screen and (max-width: 915px) {
+
+	header .row .col-sm-5 .logo img {
+		margin-left: 15px;
+		width: 100%;
+	}
+
+	.container .col-xs-12.col-sm-2.vis {
+		display: none;
+	}
+
+	.stamp.hid {
+		display: inline-block;
+		position: relative;
+		top: 30px;
+		left: 25px;
+		z-index: 400;
+		margin-top: 0px;
+	}
+
+	.stamp h2{
+		padding-top: 7px;
+	}
+
+	.header_par_right {
+		text-align: center;
+	}
+
+	.container .col-xs-12.col-sm-5.par_rigth {
+		width: 50%;
+	}
+
+	.container .col-xs-12.col-sm-5.logo {
+		width: 50%;
+	}
+
+	.content_right {
+		margin-top: 0;
+	}
+
+	.book_left {
+		margin-top: 0;
+		top: -60px;
+	}
+
+	.bookmark {
+		left: -490px;
+	}
+
+	.bookmark img {
+		width: 235%;
+	}
+
+	.bookmark p {
+		left: 635px;
+	}
+
+	.bookmark p:nth-child(2) {
+		margin-top: 22px;
+	}
+
+	.bookmark p:last-child {
+		margin-top: 78px;
+	}
+}
+
+/*Правила для экранов шириной меньше 860 пикселей*/
+
+@media screen and (max-width: 860px){
+
+	body {
+		background: url(../images/background_top.png) -800px 0px no-repeat, url(../images/background.jpg) -800px 80px no-repeat, url(../images/bg.jpg) -800px 0 repeat;
+	}
+	
+	.button.hid {
+		display: block;
+	}
+
+	.button.vis {
+		display: none;
+		text-align: center;
+	}
+
+	.container .button.hid a img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.bookmark {
+		left: -310px;
+		top: -50px;
+	}
+
+	.book_right {
+		left: -12px;
+		width: 108%;
+	}
+
+	.book_left {
+		margin-top: 0;
+		top: -55px;
+		left: 0px;
+		width: 104%;
+	}
+
+	.content_right {
+		position: relative;
+		left: 0px;
+		height: 480px;
+		padding: 30px 40px;
+		margin-top: 50px;
+	}
+
+	.gift_ruzov h3 {
+		margin-top: 8px;
+		margin-bottom: 0;
+		font-size: 2.2em;
+		font-weight: 500;
+	}
+
+	.gift_ruzov span{
+		font-size: 1.5em;
+	}
+
+	.gift_ruzov p {
+		font-size: 1.65em;
+	}
+
+	.par_donations {
+		font-size: 1.2em;
+	}
+
+	.par_donations span {
+		font-size: 1.4em;
+	}
+
+	.container .col-xs-12.col-sm-6.footer_right {
+		width: 100%;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left  {
+		width: 100%;
+	}
+
+	.container .col-xs-12.col-sm-7.footer_left {
+		width: 100%;
+	}
+
+	.conteiner .col-xs-12.col-sm-6.footer {
+		display: table;
+	}	
+
+	.container .col-xs-12.col-sm-5.footer_left.vis{
+		display: none;
+	} 
+
+	.container .col-xs-12.col-sm-5.footer_left.hid {
+		display: block;
+	    margin: 30px 0 0 35%;
+	}
+
+	.copy_right_par {
+		margin-top: 30px;
+	}
+}
+
+/*Правила для экранов шириной меньше 805 пикселей*/
+
+@media screen and (max-width: 805px){
+
+	body {
+		background: url(../images/background_top.png) -900px 0px no-repeat, url(../images/background.jpg) -900px 80px no-repeat, url(../images/bg.jpg) -900px 0 repeat;
+	}
+	
+	.bookmark {
+		left: -320px;
+		top: -40px;
+	}
+
+	.bookmark img {
+		width: 200%;
+	}
+
+	.bookmark p {
+		width: 70%;
+		left: 495px;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 2.8em;
+		margin-top: 22px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 1.92em;
+		margin-top: 62px;
+	}
+
+	.book_right {
+		left: -12px;
+		width: 108%;
+	}
+
+	.book_left {
+		margin-top: 0;
+		top: -55px;
+		left: 0px;
+		width: 104%;
+	}
+
+	.gift_ruzov h3 {
+		margin-top: -16px;
+	}
+
+}
+
+
+/*Правила для экранов шириной меньше 760 пикселей*/
+
+@media screen and (max-width: 760px) {
+
+	body {
+		background: url(../images/background_top.png) center 0px no-repeat, url(../images/background.jpg) -865px center  no-repeat, url(../images/bg.jpg) center 0px  repeat;
+	}
+	
+	.col-sm-6.test {
+		padding-right: 15px;
+	}
+
+	.bookmark img {
+		width: 200%;
+	}
+
+	.bookmark p {
+		left: 445px;
+	}
+
+	.bookmark {
+		left: -285px;
+		top: 27px;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 2.8em;
+		margin-top: 15px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 1.92em;
+		margin-top: 55px;
+	}
+
+	.book_right {
+		left: -12px;
+		width: 108%;
+	}
+
+	.book_left {
+		margin-top: 0;
+		top: -55px;
+		left: 0px;
+		width: 104%;
+	}
+	.content_right {
+		height: 495px;
+		padding: 30px 20px;
+	}
+
+	.gift_ruzov h3 {
+		margin-top: 6px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 695 пикселей*/
+
+@media screen and (max-width: 695px) {
+
+	body {
+		background: url(../images/background_top.png) center 0px no-repeat, url(../images/background.jpg) center 0px no-repeat, url(../images/bg.jpg) center 0px  repeat;
+	}
+
+	.stamp.hid {
+	    top: 15px;
+	    left: 0px;
+	}
+
+	.gift_ruzov h3 {
+		margin-top: 40px;
+	}
+	.bookmark.hid {
+		display: block;
+		width: 150%;
+		left: -505px;
+		top: 9px;
+	}
+
+	.bookmark img {
+		width: 130%;
+	}
+
+	.bookmark p {
+		width: 40%;
+		left: 750px;
+	}
+
+
+	.bookmark p:nth-child(2) {
+	font-size: 4em;
+	margin-top: 30px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 2.72em;
+		margin-top: 87px;
+	}
+
+	.book_left {
+		width: 90%;
+	}
+
+	header .row .col-sm-5.logo img {
+		width: 60%;
+		float: none;
+	}
+
+	.feed_back_mail p:first-child {
+	    padding-top: 20px;
+	}
+
+	.feed_back_phone p:first-child {
+	    padding-top: 25px;
+	}
+
+	.content_right {
+		height: 750px;
+		margin-top: -80px;
+	}
+
+	.header_par_right {
+		margin-top: 25px;
+	}
+
+	.header_par_right p {
+		font-size: 2.3em;
+	}
+
+	header .row .col-sm-5.logo img {
+		margin: 41px 0 0 0;
+	}
+
+	.container {
+		padding-right: 30px;
+		padding-left: 30px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 30%;
+	    width: 65%;
+	}
+
+	.bookmark.vis {
+		display: none;
+	}
+	
+	.container .col-xs-12.col-sm-5.par_rigth {
+		width: 100%;
+	}
+
+	.container .col-xs-12.col-sm-5.logo {
+		width: 100%;
+	}
+
+	.par_donations, .gift_ruzov, .feed_back_phone, .feed_back_mail {
+		text-align: center;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid {
+		display: none;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+		display: block;
+	    margin: 30px 0 0 35%;
+	}
+
+	.copy_right {
+		width: 30%;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/*Правила для экранов шириной меньше 650 пикселей*/
+
+@media screen and (max-width: 650px){
+
+	.bookmark.hid {
+		left: -395px;
+		width: 180%;
+	}
+
+	.bookmark img {
+		width: 100%;
+	}
+
+	.bookmark p {
+		width: 30%;
+		left: 645px;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 4em;
+		margin-top: 21px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 2.72em;
+		margin-top: 80px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 30%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 33%;
+	}
+
+	.content_right {
+		height: 700px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+	.par_donations {
+		font-weight: 400;
+		font-size: 1.1em;
+	}
+
+	.par_donations p span {
+		font-size: 1.4em;
+	}
+
+	.gift_ruzov h3 {
+		font-size: 2em;
+	}
+
+	.gift_ruzov span {
+		font-size: 1.4em;
+	}
+
+	.gift_ruzov p {
+		font-size: 1.4em;
+	}
+}
+
+/*Правила для экранов шириной меньше 610 пикселей*/
+
+@media screen and (max-width: 610px){
+	.bookmark.hid {
+		left: -445px;
+		width: 197%;
+	}
+
+	.bookmark p {
+		left: 660px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 30%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 33%;
+	}
+
+	.content_right {
+		height: 700px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 570 пикселей*/
+
+@media screen and (max-width: 570px){
+
+	.book_left {
+		left: -50px;
+		width: 112%;
+	}
+
+	header .row .col-sm-5.logo img {
+		width: 95%;
+	}
+
+	.bookmark.hid {
+		left: -415px;
+	}
+
+	.bookmark p {
+		left: 615px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 30%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 40%;
+	}
+
+	.content_right {
+		height: 645px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 540 пикселей*/
+
+@media screen and (max-width: 540px){
+
+	.book_left {
+		left: -50px;
+		width: 112%;
+	}
+
+	header .row .col-sm-5.logo img {
+		width: 95%;
+	}
+
+	.bookmark.hid {
+		left: -362px;
+		width: 197%;
+	}
+
+	.bookmark p {
+		left: 400px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 30%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 40%;
+	}
+
+	.content_right {
+		height: 645px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 485 пикселей*/
+
+@media screen and (max-width: 485px){
+	.bookmark.hid {
+		left: -455px;
+		width: 230%;
+	}
+
+	.bookmark img {
+		width: 100%;
+	}
+
+	.bookmark p {
+		left: 587px;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 3.5em;
+		margin-top: 21px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 2.4em;
+		margin-top: 70px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 27%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 44%;
+	}
+
+	.content_right {
+		height: 620px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+	.gift_ruzov h3 {
+		margin-top: 10px;
+	}
+
+	.header_par_right p {
+		font-size: 2.2em;
+	}
+}
+
+/*Правила для экранов шириной меньше 435 пикселей*/
+
+@media screen and (max-width: 435px){
+	.header_par_right p {
+		font-size: 1.5em;
+	}
+}
+
+/*Правила для экранов шириной меньше 420 пикселей*/
+
+@media screen and (max-width: 420px){
+
+	.bookmark.hid {
+		left: -370px;
+		width: 230%;
+	}
+
+	
+
+	.bookmark p {
+		width: 30%;
+		left: 485px;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 2.8em;
+		margin-top: 15px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 1.92em;
+		margin-top: 60px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 21%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 53%;
+	}
+
+	.content_right {
+		height: 590px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 390 пикселей*/
+
+@media screen and (max-width: 390px){
+
+	.bookmark.hid {
+		left: -328px;
+		width: 230%;
+	}
+
+	.bookmark p {
+		left: 425px;
+		width: 30%;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 2.6em;
+		margin-top: 15px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 1.77em;
+		margin-top: 52px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 18%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 57%;
+	}
+
+	.content_right {
+		height: 590px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 370 пикселей*/
+
+@media screen and (max-width: 370px){
+
+	.bookmark.hid {
+		left: -295px;
+		width: 230%;
+	}
+
+	.bookmark p {
+		left: 392px;
+	}
+
+	.bookmark p:nth-child(2) {
+		font-size: 2.5em;
+		margin-top: 13px;
+	}
+
+	.bookmark p:last-child {
+		font-size: 1.72em;
+		margin-top: 50px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 14%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 63%;
+	}
+
+	.content_right {
+		height: 590px;
+	}
+
+	.book_left {
+		margin-top: -40px;
+	}
+
+}
+
+/*Правила для экранов шириной меньше 350 пикселей*/
+
+@media screen and (max-width: 350px){
+	.header_par_right p {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (max-width: 332px){
+	.container {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.bookmark.hid {
+		left: -320px;
+		width: 235%;
+	}
+
+	.content_right {
+		height: 580px;
+	}
+
+	.book_left {
+		margin-top: -30px;
+	}
+
+	.container .col-xs-12.col-sm-5.footer_left.hid_2 {
+	    margin-left: 14%;
+	    width: 70%;
+	}
+	.copy_right {
+	    width: 63%;
+	}
+
+	.stamp.hid {
+	    top: 0px;
+	    left: -27px;
+	}
+}
+
+/*Правила для экранов шириной меньше 320 пикселей*/
+
+@media screen and (max-width: 320px){
+
+	.bookmark.hid {
+		left: -310px;
+	}
+
+	.content_right {
+		height: 600px;
+	}
+
+	.stamp.hid {
+	    top: 15px;
+	    left: -27px;
+	}
+}

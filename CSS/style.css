@@ -1,0 +1,314 @@
+/*Правила для тега body*/
+body {
+	background: url(../images/background.jpg)  center 0px no-repeat, url(../images/bg.jpg) center repeat;
+	box-sizing: border-box;
+	font-family: "Fira Sans";
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.35;
+}
+
+.container {
+	width: 940px;
+}
+
+/*Правила для шапки сайта*/
+
+/*Правила для логотипа*/
+
+header .row .col-sm-5.logo img {
+	margin-top: 41px;
+	margin-left: -28px;
+	float: left;
+}
+
+.logo {
+	text-align: center;
+}
+
+/*Правила для штампа NEW*/
+
+.container .row.col-sm-2.logo {
+	padding: 0;
+}
+
+.stamp {
+	position: relative;
+	left: 10px;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+	background-color: #a4311e;
+	text-align: center;
+	color: #f8f4f3;
+	margin: 30px auto 0;
+	padding: 0;
+}
+
+.stamp h2 {
+	padding-top: 26px;
+}
+
+.stamp h4 {
+	font-size: 0.9em;
+	margin-bottom: 0px;
+	margin-top: 9px;
+
+}
+
+.stamp h3 {
+	margin-top: 4px;
+	font-size: 1.2em;
+}
+
+.stamp hr {
+	margin-top: 10px;
+	margin-bottom: 0;
+	width: 108px;
+	height: 1px;
+	border: 1px solid #b04933;
+	color: red;
+	background-color: #b04933;
+}
+
+.conteiner .row.col-xs-12 .stamp_hidden {
+	height: 100px;
+}
+
+/*Правила для параграфа шапки справа*/
+
+.header_par_right {
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+.header_par_right p {
+	font-size: 1.57em;
+	color: #6c4943;
+}
+
+/*Правила для основного контента*/
+
+/*Правила для левой части основного контента*/
+
+.book_left {
+	margin-top: 24px;
+	position: relative;
+	top: 10px;
+	left: -88px;
+	width: 112%;
+	z-index: 300;
+}
+
+.bookmark {
+	position: relative;
+	top: -8px;
+	left: -517px;
+	z-index: 200;
+}
+
+.bookmark p {
+	position: absolute;
+	top: 0px;
+	left: 675px;
+	color: #fff;
+	font-size: 3em;
+	width: 70%;
+}
+
+.bookmark p:nth-child(2) {
+	font-size: 4em;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+.bookmark p:last-child {
+	font-size: 2.72em;
+	font-weight: 500;
+	margin-top: 85px;
+}
+
+.books {
+	position: relative;
+}
+
+.hid {
+	display: none;
+}
+
+.hid_2 {
+	display: none;
+}
+
+/*Правила для правой части основного контента*/
+
+.col-sm-6.test {
+	padding-right: 0;
+}
+
+.content_right {
+	width: 441px;
+	width: 100%;
+	height: 700px;
+	margin: 67px auto;
+	background: #e6d6bc;
+	border-radius: 20px;
+	padding: 30px 40px;
+	font-weight: 600;
+}
+
+.book_right {
+	position: relative;
+	left: -60px;
+	width: 138%;
+	z-index: 400;
+}
+
+.content_par_right p {
+	font-size: 1em;
+	color: #6c4943;
+}
+
+/*Правила для последней части контента*/
+
+/*Правила для левой части*/
+
+.gift_ruzov {
+	text-align: right;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.gift_ruzov h3 {
+	margin-top: -45px;
+	margin-bottom: 0;
+	font-size: 2.77em;
+	font-weight: medium;
+	font-style: italic;
+}
+
+.gift_ruzov span{
+	color: #e0c995;
+	font-size: 1.74em;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+.gift_ruzov p {
+	font-size: 2.06em;
+	font-weight: 500;
+	font-style: italic;
+
+}
+
+/*Правила для парвой части*/
+
+.par_donations {
+	padding-top: 5px;
+	padding-bottom: 20px;
+	color: #ffffff;
+	font-size: 1.29em;
+}
+
+
+/*Правила для подвала*/ 
+
+footer span {
+	color: #e0c995;
+}
+
+/*Правила для левой части с логотипом*/
+
+.ruzov_logo {
+	float: left;
+}
+
+.ruzov_logo img {
+	margin-right: 10px;
+}
+
+.ruzov_text p {
+	color: #ffffff;
+	font-size: 0.8em;
+	padding-top: 12px;
+
+}
+
+/*правила для блока обратной связи по телефону*/
+
+.feed_back_phone {
+	text-align: right;
+}
+.feed_back_phone p {
+	color: #ffffff;
+	margin-bottom: 0;
+}
+
+.feed_back_phone p:first-child {
+	font-size: 0.9em;
+	padding-top: 7px;
+}
+
+.feed_back_phone p:last-child {
+	padding-top: 0;
+	font-size: 1.88em;
+}
+
+/*Правила для блока обратной связи по e-mail*/
+
+.feed_back_mail {
+	text-align: left;
+}
+.feed_back_mail p {
+	color: #ffffff;
+	margin-bottom: 0;
+
+}
+
+.feed_back_mail p a{
+	color: #ffffff;
+
+}
+
+.feed_back_mail p:first-child {
+	font-size: 0.9em;
+	padding-top: 7px;
+}
+
+.feed_back_mail p:last-child {
+	padding-top: 7px;
+	font-size: 1.29em;
+}
+
+/*Правила для блока копирайта*/
+
+.copy_right {
+	position: relative;
+	right: 0;
+	margin-left: 30px;
+}
+
+.copy_right img {
+	display: block;
+	margin-top: 15px;
+	margin-right: 10px;
+	float: left;
+	clear: right;
+}
+
+.copy_right_par p {
+	font-size: 0.86em;
+	padding-top: 15px;
+	margin-bottom: 0px;
+	color: #fedeb5;
+}
+
+.copy_right_par p:last-child {
+	font-size: 0.86em;
+	padding-top: 0;
+	color: #f5f3f2;
+	padding-bottom:50px;
+}
+
+
+
