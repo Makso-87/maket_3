@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <title>Книга "В поисках бессмертия" Автор Рузов В.О.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/style_responsive.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.a_butt').mouseenter(function(){$('.butt').attr("src", "images/button_over.png")});
+        $('.a_butt').mouseleave(function(){$('.butt').attr("src", "images/button.png")});
+      });
+    </script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+      <div class="container">
+        <header>
+          <div class="row">
+            <!-- Главный заголовок и логотип -->
+            <div class="col-xs-12 col-sm-5 logo">
+             <div class="logo">
+                <img src="images/logo.png" alt="В поисках бессмертия">
+             </div>
+            </div>
+             <!-- Штамп вверху в центре страницы. Изначально виден на больших разрешениях. -->
+            <div class="col-xs-12 col-sm-2 vis">
+              <div class="stamp">
+                <h2><strong>NEW</strong></h2>
+                <hr>
+                <h4>Уникальная Книга</h4>
+                <h3>Рузова В.О.</h3>
+              </div>
+            </div>
+             <!-- Заголовок справа вверху старницы -->
+            <div class="col-xs-12 col-sm-5 par_rigth">
+             <div class="header_par_right">
+                <p>Приключенческий роман<br> на документальной основе</p>
+             </div>
+            </div>
+          </div>
+          <div class="row">
+            <!-- Штамп вверху в центре страницы. Изначально скрыт, появляется при ширине экрана менее 805 пикселей-->
+            <div class="col-xs-12 stamp_hidden">
+                  <div class="stamp hid">
+                        <h2><strong>NEW</strong></h2>
+                        <hr>
+                        <h4>Уникальная Книга</h4>
+                        <h3>Рузова В.О.</h3>
+                  </div>
+            </div>
+          </div>
+        </header>
+       <main>
+          <div class="row">
+             <!-- Контент левой части страницы -->
+           <div class="col-xs-12 col-sm-6">
+            <div class="content_left">
+              <!-- Блок с открытой книгой и закладкой -->
+               <div class="books">
+                 <img class="book_left" src="images/book_opened.png" alt="Открытая книга">
+                 <!-- Закладка. Изначально видна на больших экранах -->
+                <div class="bookmark vis">
+                   <img src="images/no_sell.png" alt="Закладка">
+                   <p>Эта книга</p>
+                   <p>не продается!</p>
+                </div>
+               </div>
+            </div>
+           </div>
+            <!-- Контент правой части странийцы-->
+           <div class="col-xs-12 col-sm-6 test">
+            <div class="content_right">
+                <!--Описание содержания книги  -->
+               <div class="content_par_right">
+                <p>Два друга отправляются в Гималаи на поиски нектара бессмертия. Их ждут удивительные приключения, весёлые истории, невообразимые открытия и, к сожалению, ужасные трагедии. Герои не просто идут в горы, они идут по своему пути самоосознания, который подобен лезвию бритвы. Святые, мудрецы, йоги, мистики, ведьмы и даже чёрные маги встретятся им на этом пути, но далеко не все эти встречи пройдут гладко и закончатся безопасно. Мы пройдём этот путь вместе, и ещё неизвестно, чем он закончится…</p>
+              </div>
+              <!-- Кнопка "Получить книгу" изначальноы видна на больших разрешениях -->
+             <div class="button vis">
+                <a class="a_butt" href="http://dobro-shop.com/product/3906/" target="_blank"><img class="butt img-responsive" src="images/button.png" alt="Получить книгу"></a>
+             </div>
+             <!-- Зкаладка. Изначально скрыта. Становится видна при щирине экрана менее 760 пикселей -->
+              <div class="bookmark hid">
+                   <img src="images/no_sell.png" alt="Закладка">
+                   <p>Эта книга</p>
+                   <p>не продается!</p>
+                </div>
+              <img class="book_right" src="images/book_closed.png" alt="Закрытая книга"  width="500">
+            </div>
+           </div>
+         </div>
+         <div class="row">
+           <div class="col-xs-12 col-sm-6">
+            <div class="gift_ruzov">
+              <h3>Эта книга - подарок</h3>
+              <span>Вячеслава Олеговича Рузова</span>
+              <p>друзьям и доброжелателям<br> Клуба «БАЛАНС»,</p>
+            </div>
+           </div>
+           <div class="col-xs-12 col-sm-6">
+            <div class="par_donations">
+               <p><span>которые совершат</span> благотворительное пожертвование на развитие БАЛАНС-ТВ, вещающее на весь мир просветительские, культурные и развивающие программы!</p>
+            </div>
+           </div>
+         </div>
+         <!-- Кнопка "Получить книгу". Изначально скрыта, становится видна при ширине экрана менее 760 пикселей -->
+         <div class="row">
+           <div class="col-xs-12">
+               <div class="button hid">
+                <a class="a_butt" href="http://dobro-shop.com/product/3906/" target="_blank"><img class="butt img-responsive" src="images/button.png" alt="Получить книгу"></a>
+             </div>
+           </div>
+         </div>
+       </main>
+       <!-- Футер страницы -->
+       <footer>
+         <div class="row">
+          <!-- Левая часть футера -->
+           <div class="col-xs-12 col-sm-6 footer">
+             <div class="row">
+              <!-- Блок "О Рузове В.О. Изначально выден на больших экранах" -->
+               <div class="col-xs-12 col-sm-5 footer_left vis">
+                 <div class="ruzov_logo">
+                   <img src="images/ruzov.png" alt="Рузов" class="img-responsive">
+                 </div>
+                 <div class="ruzov_text">
+                   <p>Рузов В.О.  — идейный<br>
+                    вдохновитель<br>
+                    клуба «БАЛАНС»</p>
+                 </div>
+               </div>
+               <!-- Блок с контактным телефоном -->
+               <div class="col-xs-12 col-sm-7 footer_left ">
+                  <div class="feed_back_phone">
+                      <p>По всем вопросам звоните по телефону</p>
+                      <p><strong>+7 <span>(926)</span> 390-07-82</strong></p>
+                  </div>
+               </div>
+              <!-- Блок "О Рузове В.О. Изначально скрыт. Становится выден при ширине экрана от 690 до 860 пикселей" -->
+               <div class="col-xs-12 col-sm-5 footer_left hid">
+                   <div class="ruzov_logo">
+                       <img src="images/ruzov.png" alt="Рузов" class="img-responsive">
+                   </div>
+                   <div class="ruzov_text">
+                       <p>Рузов В.О.  — идейный<br>
+                        вдохновитель<br>
+                        клуба «БАЛАНС»</p>
+                   </div>
+               </div>
+             </div>
+           </div>
+           <!-- Правая часть футера -->
+            <div class="col-xs-12 col-sm-6 footer">
+             <div class="row">
+              <!-- Блок с контактным e-mail -->
+                <div class="col-xs-12 col-sm-6  footer_right">
+                   <div class="feed_back_mail">
+                      <p>или пишите на почту</p>
+                     <p><a href="mailto:info@vpoiskahbessmertiya.ru">info<span>@</span>vpoiskahbessmertiya.<span>ru</span></a></p>
+                   </div>
+                </div>
+                 <!-- Блок "О Рузове В.О. Изначально скрыт. Становится выден при ширине экрана менее 690 пикселей" -->
+                 <div class="col-xs-12 col-sm-5 footer_left hid_2">
+                   <div class="ruzov_logo">
+                     <img src="images/ruzov.png" alt="Рузов" class="img-responsive">
+                   </div>
+                 <div class="ruzov_text">
+                     <p>Рузов В.О.  — идейный<br>
+                      вдохновитель<br>
+                      клуба «БАЛАНС»</p>
+                 </div>
+               </div>
+               <!-- Блок с информацией о защите автоских прав -->
+               <div class="col-xs-12 col-sm-6 footer_right">
+                 <div class="copy_right">
+                    <img src="images/Icon_copy.png" alt="Копирайт" class="img-responsive">
+                    <div class="copy_right_par">
+                       <p>vpoiskahbessmertiya.ru</p>
+                       <p>Copyright &copy; 2014-2017</p>
+                    </div>
+                </div>
+               </div>
+            </div>
+            </div>
+          </div>
+       </footer>
+      </div>
+  </body>
+</html>
